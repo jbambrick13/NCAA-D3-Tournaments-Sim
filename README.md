@@ -6,7 +6,7 @@ This project simulates 5 of the main NCAA Division III Men's Lacrosse conference
 
 The primary goal of this project was to apply data analysis, simulation techniques, and data visualization skills to a real-world sports scenario that I am passionate about.
 
-**Live Dashboard Link:** [Link to  deployed Streamlit Dashboard]
+**Live Dashboard Link:** https://jbambrick13-ncaa-d3-tour-tournament-prediction-dashboard-rxnd3f.streamlit.app/
 ## Features
 
 * **Monte Carlo Simulation:** Runs a configurable number of simulations (usually set to 1000) for each tournament to estimate championship probabilities.
