@@ -20,8 +20,8 @@ df_latest_elo = None
 df_games_raw = None 
 # Try to read in game and team data from CSV files
 try:
-    game_data_filename = r"C:\Users\jacks\Tournament_Prediction_Visualization\JacksonBambrickGameData20250502.csv"
-    team_list_filename = r"C:\Users\jacks\Tournament_Prediction_Visualization\JacksonBambrickTeamList20250415.csv"
+    game_data_filename = r"https://github.com/jbambrick13/NCAA-D3-Tournaments-Sim/blob/main/JacksonBambrickGameData20250502.csv"
+    team_list_filename = r"https://github.com/jbambrick13/NCAA-D3-Tournaments-Sim/blob/main/JacksonBambrickTeamList20250415.csv"
     df_games_raw = pd.read_csv(game_data_filename)
     df_teams = pd.read_csv(team_list_filename)
     print("Successfully loaded raw datasets.")
